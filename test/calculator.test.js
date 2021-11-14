@@ -1,10 +1,11 @@
 import { expect } from 'chai/index.mjs'
-import { add, subtract, multiply, divide } from '../src/index.js'
+import { add, subtract, multiply, divide } from '../src/calculator.js'
 
 describe('calculator', () => {
   describe('add', () => {
     it('add', () => {
       expect(add(9, 3)).to.equal(12)
+      expect()
     })
   })
   describe('substract', () => {
